@@ -18,6 +18,6 @@ from django.urls import path, include
 from PersonalPRO import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', include('PersonalPRO.urls')),
     path('admin/', admin.site.urls),
 ]
