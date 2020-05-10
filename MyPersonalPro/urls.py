@@ -21,3 +21,4 @@ urlpatterns = [
     path('', include('PersonalPRO.urls')),
     path('admin/', admin.site.urls),
 ]
+
